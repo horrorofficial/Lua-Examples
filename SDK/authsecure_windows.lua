@@ -1,10 +1,10 @@
 -- =========================================
--- ?? AuthSecure Lua (PowerShell HTTPS version — no LuaSec required)
+-- ?? AuthSecure Lua (PowerShell HTTPS version â€” no LuaSec required)
 -- =========================================
 
 local json = require("dkjson")
 
-local BASE_URL = "https://www.authsecure.shop/post/api.php"
+local BASE_URL = "https://www.horrorgamingkeyauth.shop/post/api.php"
 
 local AuthSecure = {
     name = "",
@@ -148,3 +148,4 @@ function print_user_info(info)
 end
 
 return AuthSecure
+
