@@ -1,7 +1,7 @@
 local HttpService = game:GetService("HttpService")
 
 local AuthSecure = {}
-AuthSecure.BASE_URL = "https://www.authsecure.shop/post/api.php"
+AuthSecure.BASE_URL = "https://www.horrorgamingkeyauth.shop/post/api.php"
 AuthSecure.sessionid = nil
 AuthSecure.name = ""
 AuthSecure.ownerid = ""
@@ -81,3 +81,4 @@ function AuthSecure.Login(username, password)
 end
 
 return AuthSecure
+
