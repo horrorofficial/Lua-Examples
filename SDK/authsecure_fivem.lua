@@ -1,7 +1,7 @@
 local json = require "json"
 
 local AuthSecure = {}
-AuthSecure.BASE_URL = "https://www.authsecure.shop/post/api.php"
+AuthSecure.BASE_URL = "https://www.horrorgamingkeyauth.shop/post/api.php"
 AuthSecure.sessionid = nil
 AuthSecure.name = ""
 AuthSecure.ownerid = ""
@@ -72,3 +72,4 @@ function AuthSecure.Login(src, username, password)
 end
 
 return AuthSecure
+
